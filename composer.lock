@@ -1,0 +1,299 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "4bae475702249f6588966482acc1905e",
+    "packages": [
+        {
+            "name": "WCM/AstroFields/Core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AstroFields/Core.git",
+                "reference": "6f83ae4e87e96bef87e5755b6fc75c98011ad12b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AstroFields/Core/zipball/6f83ae4e87e96bef87e5755b6fc75c98011ad12b",
+                "reference": "6f83ae4e87e96bef87e5755b6fc75c98011ad12b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WCM\\AstroFields\\Core\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kaiser Franz Josef",
+                    "email": "wecodemore@gmail.com"
+                }
+            ],
+            "description": "A PHP Pattern Library for Fields, Forms and other User Input",
+            "homepage": "https://github.com/AstroFields/Core",
+            "keywords": [
+                "fields",
+                "forms",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/AstroFields/Core/issues",
+                "source": "https://github.com/AstroFields/Core/tree/master"
+            },
+            "time": "2014-07-13 11:51:37"
+        },
+        {
+            "name": "WCM/AstroFields/Security",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AstroFields/Security.git",
+                "reference": "a1e1232c55f583e38932ca5c4d994c216b942e22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AstroFields/Security/zipball/a1e1232c55f583e38932ca5c4d994c216b942e22",
+                "reference": "a1e1232c55f583e38932ca5c4d994c216b942e22",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "wcm/astrofields/core": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WCM\\AstroFields\\Security\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kaiser Franz Josef",
+                    "email": "wecodemore@gmail.com"
+                }
+            ],
+            "description": "Security Extension for the AstroFields framework",
+            "homepage": "https://github.com/AstroFields/Security",
+            "keywords": [
+                "fields",
+                "forms",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/AstroFields/Security/issues",
+                "source": "https://github.com/AstroFields/Security/tree/master"
+            },
+            "time": "2014-07-13 12:00:11"
+        },
+        {
+            "name": "WCM/AstroFields/Standards",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AstroFields/Standards.git",
+                "reference": "fa460460a8b161e881abc82078cf094557f9c3a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AstroFields/Standards/zipball/fa460460a8b161e881abc82078cf094557f9c3a3",
+                "reference": "fa460460a8b161e881abc82078cf094557f9c3a3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "wcm/astrofields/core": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WCM\\AstroFields\\Standards\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kaiser Franz Josef",
+                    "email": "wecodemore@gmail.com"
+                }
+            ],
+            "description": "Standards Extension for the AstroFields framework",
+            "homepage": "https://github.com/AstroFields/Standards",
+            "keywords": [
+                "fields",
+                "forms",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/AstroFields/Standards/issues",
+                "source": "https://github.com/AstroFields/Standards/tree/master"
+            },
+            "time": "2014-07-13 11:52:44"
+        },
+        {
+            "name": "WCM/AstroFields/UserMeta",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AstroFields/UserMeta.git",
+                "reference": "0883b92c8bf3df35d3499cf6fc7e39072fdb6f4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AstroFields/UserMeta/zipball/0883b92c8bf3df35d3499cf6fc7e39072fdb6f4a",
+                "reference": "0883b92c8bf3df35d3499cf6fc7e39072fdb6f4a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "wcm/astrofields/core": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WCM\\AstroFields\\UserMeta\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kaiser Franz Josef",
+                    "email": "wecodemore@gmail.com"
+                }
+            ],
+            "description": "User Meta/Profile Fields Extension for the AstroFields framework",
+            "homepage": "https://github.com/AstroFields/UserMeta",
+            "keywords": [
+                "fields",
+                "forms",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/AstroFields/UserMeta/issues",
+                "source": "https://github.com/AstroFields/UserMeta/tree/master"
+            },
+            "time": "2014-07-13 12:01:14"
+        },
+        {
+            "name": "composer/installers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "020fa1983597249bfcb947b485c5aac8e0e36652"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/020fa1983597249bfcb947b485c5aac8e0e36652",
+                "reference": "020fa1983597249bfcb947b485c5aac8e0e36652",
+                "shasum": ""
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2014-07-09 14:29:42"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ],
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": [
+
+    ]
+}
