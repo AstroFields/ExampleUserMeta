@@ -1,5 +1,5 @@
 {
-    "name"        : "WCM/AstroFields/Examples/UserMeta",
+    "name"        : "wecodemore/astroexamples-usermeta",
     "version"     : "0.1.0",
     "description" : "User Meta/Profile Fields Extension Example for the AstroFields framework",
     "keywords"    : [ "wordpress", "forms", "fields" ],
