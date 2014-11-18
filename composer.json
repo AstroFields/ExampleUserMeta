@@ -21,7 +21,7 @@
         "composer/installers"              : "~1.0",
         "wecodemore/astrofields-core"      : "*",
         "wecodemore/astrofields-standards" : "*",
-        "wecodemore/astrofields-usermet"   : "*",
+        "wecodemore/astrofields-usermeta"  : "*",
         "wecodemore/astrofields-security"  : "*"
     },
     "autoload"    : {
