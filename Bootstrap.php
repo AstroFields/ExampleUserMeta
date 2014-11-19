@@ -8,7 +8,9 @@ namespace WCM\AstroFields\Examples\UserMeta;
  */
 
 // Composer autoloader
-require_once __DIR__."/vendor/autoload.php";
+if ( file_exists( __DIR__."/vendor/autoload.php" ) )
+	require_once __DIR__."/vendor/autoload.php";
+
 
 use WCM\AstroFields\Core\Mediators\Entity;
 use WCM\AstroFields\Core\Commands\ViewCmd;
